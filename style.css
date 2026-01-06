@@ -4,13 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+  background-color: #02005fd7;
+}
 /* Shared Styles */
 body{
   font-family: 'Open Sans', sans-serif;
   max-width: 1600px;
   margin: 0 auto;
-  border-left: 2px solid red;
-  border-right: 2px solid red;
+  background-color: #FFFFFF;
 }
 
 .display-flex{
@@ -164,4 +166,48 @@ nav ul li a {
   color: #757575;
   font-size: 16px;
   line-height: 28px;
+}
+.resume {
+  margin: 130px 230px;
+}
+.resume h2 {
+  text-align: center;
+  color: #181818;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 110px;
+}
+.resume .resume_parent {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.resume .resume_parent .resume_education h3 {
+  color: #474747;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.resume .resume_parent .resume_education .resume_sections {
+  margin: 30px 0;
+}
+.resume .resume_parent .resume_education .resume_sections h4 {
+  color: #474747;
+  font-size: 25px;
+  font-weight: bold;
+}
+.resume .resume_parent .resume_education .resume_sections p:first-of-type {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 600px;
+  margin-bottom: 20px;
+}
+.resume .resume_parent .resume_education .resume_sections > p:nth-of-type(2) {
+  font-size: 16px;
+  color: #757575;
+  line-height: 28px;
+}
+.resume .resume_btn {
+  margin: 50px auto;
+  display: block;
 }

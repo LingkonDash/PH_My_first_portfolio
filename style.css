@@ -121,3 +121,47 @@ nav ul li a {
   font-size: 20px;
   line-height: 3px;
 }
+.workplace {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.workplace .workplace_text {
+  text-align: center;
+  max-width: 830px;
+  margin-bottom: 50px;
+}
+.workplace .workplace_text h2 {
+  font-size: 35px;
+  color: #181818;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.workplace .workplace_text p {
+  font-size: 18px;
+  color: #757575;
+}
+.workplace .cards_parent {
+  display: flex;
+  gap: 24px;
+}
+.workplace .cards_parent .cards {
+  width: 265px;
+  border-radius: 5px;
+  box-shadow: 0 6px 50px #0000002a;
+  padding: 30px;
+}
+.workplace .cards_parent .cards img {
+  margin-bottom: 30px;
+}
+.workplace .cards_parent .cards h3 {
+  color: #181818;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.workplace .cards_parent .cards p {
+  color: #757575;
+  font-size: 16px;
+  line-height: 28px;
+}

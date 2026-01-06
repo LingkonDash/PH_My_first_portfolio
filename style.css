@@ -30,6 +30,9 @@ body{
   border-radius: 5px;
   padding: 19px 35px;
   cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .info_bold {
@@ -210,4 +213,76 @@ nav ul li a {
 .resume .resume_btn {
   margin: 50px auto;
   display: block;
+}
+.footer {
+  background-color: #FFF8F3;
+  display: flex;
+  justify-content: space-between;
+  padding: 130px 230px;
+}
+.footer_connect {
+  max-width: 562px;
+}
+.footer_connect h2 {
+  color: #181818;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.footer_connect p {
+  color: #474747;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+.footer_connect .social_icons {
+  display: flex;
+  gap: 24px;
+}
+.footer_form {
+  max-width: 462px;
+  display: block;
+}
+.footer_form h2 {
+  color: #181818;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.footer_form .form_inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer_form .form_inputs .input {
+  width: 462px;
+  height: 64px;
+  padding: 18px 30px;
+  color: #181818;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+}
+.footer_form .form_inputs .input::placeholder {
+  color: #757575;
+  font-size: 16px;
+  line-height: 28px;
+}
+.footer_form .form_inputs .textarea {
+  border: none;
+  width: 462px;
+  height: 180px;
+  padding: 18px 30px;
+  color: #181818;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  margin-bottom: 24px;
+}
+.footer_form .form_inputs .textarea::placeholder {
+  color: #757575;
+  font-size: 16px;
+  line-height: 28px;
+}
+.footer_form .form_inputs .footer_btn{
+  width: 150px;
 }
